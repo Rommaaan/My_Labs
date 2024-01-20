@@ -9,19 +9,19 @@ int main() {
     short type;
 
     cout << "--------\n";
-    cout << " Ôèãóðû\n";
+    cout << " Ð¤Ð¸Ð³ÑƒÑ€Ñ‹\n";
     cout << "--------\n\n";
-    cout << "-Ðàçìåð(1-30): "; cin >> size;
+    cout << "-Ð Ð°Ð·Ð¼ÐµÑ€(1-30): "; cin >> size;
     cout << endl;
     if (size >= 1 && size <= 30) {
-        cout << "-Òåêñòóðà: "; cin >> texture;
+        cout << "-Ð¢ÐµÐºÑÑ‚ÑƒÑ€Ð°: "; cin >> texture;
         cout << endl;
 
-        cout << "| 0 - ãîðèçîíòàëüíàÿ | 1 - âåðòèêàëüíàÿ |\n";
-        cout << "-Òèï ëèíèè: "; cin >> type;
+        cout << "| 0 - Ð³Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÑŒÐ½Ð°Ñ | 1 - Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÑŒÐ½Ð°Ñ |\n";
+        cout << "-Ð¢Ð¸Ð¿ Ð»Ð¸Ð½Ð¸Ð¸: "; cin >> type;
         cout << endl;
 
-        cout << "Âîò ÷òî ïîëó÷èëîñü:\n";
+        cout << "Ð’Ð¾Ñ‚ Ñ‡Ñ‚Ð¾ Ð¿Ð¾Ð»ÑƒÑ‡Ð¸Ð»Ð¾ÑÑŒ:\n";
 
         for (int i = 0; i < size; i++) {
             if (type == 0) {
@@ -31,16 +31,16 @@ int main() {
                 cout << texture << endl;
             }
             else {
-                cout << "Îøèáêà";
+                cout << "ÐžÑˆÐ¸Ð±ÐºÐ°";
                 break;
             }
         }
     }
     else {
-        cout << "Îøèáêà";
+        cout << "ÐžÑˆÐ¸Ð±ÐºÐ°";
     }
-
-
+    
+    
     int _;
     cin >> _;
 }
