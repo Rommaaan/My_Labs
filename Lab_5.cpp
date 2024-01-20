@@ -5,39 +5,39 @@ int main() {
 	setlocale(0, "");
 	string a;
 	int b, c;
-	cout << "Ââåäèòå äåéñòâèå:" << endl;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ´ĞµĞ¹ÑÑ‚Ğ²Ğ¸Ğµ:" << endl;
 	cin >> a;
-	cout << "Ââåäèòå ÷èñëî ¹1:" << endl;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ â„–1:" << endl;
 	cin >> b;
-	cout << "Ââåäèòå ÷èñëî ¹2" << endl;
+	cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ â„–2" << endl;
 	cin >> c;
 
 	int res;
 	if (a == "/" and b == 0) {
-		cout << "Äåëèòü íà 0 íåëüçÿ!" << endl;
+		cout << "Ğ”ĞµĞ»Ğ¸Ñ‚ÑŒ Ğ½Ğ° 0 Ğ½ĞµĞ»ÑŒĞ·Ñ!" << endl;
 		return 0;
 	}
 
-	else if (a == "+") {
+	 else if (a == "+") {
 		res = b + c;
 	}
 
-	else if (a == "*") {
+	 else if (a == "*") {
 		res = b * c;
 	}
 
-	else if (a == "/") {
+	 else if (a == "/") {
 		res = b / c;
 	}
 
-	else if (a == "-") {
+	 else if (a == "-") {
 		res = b - c;
 	}
 
-	else if (a == "%") {
+	 else if (a == "%") {
 		res = b % c;
 	}
 
-	cout << "Ğåçóëüòàò:" << b << a << c << "=" << res;
+	cout << "Ğ ĞµĞ·ÑƒĞ»ÑŒÑ‚Ğ°Ñ‚:" << b << a << c << "=" << res;
 	return 0;
 }
