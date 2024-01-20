@@ -10,40 +10,40 @@ int main() {
     int sn1 = rand() % 10 + 1;
     int sn2 = rand() % 10 + 1;
     int sn3 = rand() % 10 + 1;
-
+    
     int attempts = 5;
     int guessedNumbers = 0;
     int inputNumber;
 
-    cout << " [] Èãğà 'Óãàäàéêà' []\n\n";
-    cout << " [1] Íà÷àòü èãğó \n";
-    cout << " [2] Âûõîä \n\n";
-    cout << " Âûáèğèòå äåéñòâèå: "; cin >> inputNumber;
+    cout << " [] Ğ˜Ğ³Ñ€Ğ° 'Ğ£Ğ³Ğ°Ğ´Ğ°Ğ¹ĞºĞ°' []\n\n";
+    cout << " [1] ĞĞ°Ñ‡Ğ°Ñ‚ÑŒ Ğ¸Ğ³Ñ€Ñƒ \n";
+    cout << " [2] Ğ’Ñ‹Ñ…Ğ¾Ğ´ \n\n";
+    cout << " Ğ’Ñ‹Ğ±Ğ¸Ñ€Ğ¸Ñ‚Ğµ Ğ´ĞµĞ¹ÑÑ‚Ğ²Ğ¸Ğµ: "; cin >> inputNumber;
 
     if (inputNumber != 1) {
-        cout << " Âû ââåëè íåïğàâèëüíîå ÷èñëî";
+        cout << " Ğ’Ñ‹ Ğ²Ğ²ĞµĞ»Ğ¸ Ğ½ĞµĞ¿Ñ€Ğ°Ğ²Ğ¸Ğ»ÑŒĞ½Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾";
     }
     else
 
         while (attempts > 0 && guessedNumbers < 3) {
-            cout << " Èãğà íà÷àëàñü!\n";
-            cout << " Ïîïûòêè: [" << attempts << " / 5]\n";
-            cout << " Ââåäèòå ÷èñëî îò 1 äî 10: "; cin >> inputNumber;
+            cout << " Ğ˜Ğ³Ñ€Ğ° Ğ½Ğ°Ñ‡Ğ°Ğ»Ğ°ÑÑŒ!\n";
+            cout << " ĞŸĞ¾Ğ¿Ñ‹Ñ‚ĞºĞ¸: [" << attempts << " / 5]\n";
+            cout << " Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¾Ñ‚ 1 Ğ´Ğ¾ 10: "; cin >> inputNumber;
 
             if (inputNumber == sn1 and inputNumber == sn2 and inputNumber == sn3) {
-                cout << " Âû óãàäàëè ÷èñëî!\n";
+                cout << " Ğ’Ñ‹ ÑƒĞ³Ğ°Ğ´Ğ°Ğ»Ğ¸ Ñ‡Ğ¸ÑĞ»Ğ¾!\n";
                 guessedNumbers++;
             }
             else {
-                cout << " Âû íå óãàäàëè ÷èñëî :(\n";
+                cout << " Ğ’Ñ‹ Ğ½Ğµ ÑƒĞ³Ğ°Ğ´Ğ°Ğ»Ğ¸ Ñ‡Ğ¸ÑĞ»Ğ¾ :(\n";
                 cout << "\n";
                 attempts--;
             }
 
         }
 
-    cout << "\n Èãğà îêîí÷åíà!\n";
-    cout << " Âû óãàäàëè " << guessedNumbers << " èç 3 ÷èñåë.\n";
+    cout << "\n Ğ˜Ğ³Ñ€Ğ° Ğ¾ĞºĞ¾Ğ½Ñ‡ĞµĞ½Ğ°!\n";
+    cout << " Ğ’Ñ‹ ÑƒĞ³Ğ°Ğ´Ğ°Ğ»Ğ¸ " << guessedNumbers << " Ğ¸Ğ· 3 Ñ‡Ğ¸ÑĞµĞ».\n";
 
     return 0;
 }
