@@ -5,64 +5,64 @@ int main() {
 	setlocale(0, "");
 	int a;
 
-	cout << "[+] Ìåñÿöà ãîäà [+]" << endl << endl;
+		cout << "[+] ÐœÐµÑÑÑ†Ð° Ð³Ð¾Ð´Ð° [+]" << endl << endl;
 
-	cout << "[1] ßíâàðü" << endl;
-	cout << "[2] Ôåâðàëü" << endl;
-	cout << "[3] Ìàðò" << endl;
-	cout << "[4] Àïðåëü" << endl;
-	cout << "[5] Ìàé" << endl;
-	cout << "[6] Èþíü" << endl;
-	cout << "[7] Èþëü" << endl;
-	cout << "[8] Àâãóñò" << endl;
-	cout << "[9] Ñåíòÿáðü" << endl;
-	cout << "[10] Îêòÿáðü" << endl;
-	cout << "[12] Íîÿáðü" << endl;
-	cout << "[12] Äåêàáðü" << endl << endl;
+		cout << "[1] Ð¯Ð½Ð²Ð°Ñ€ÑŒ" << endl;
+		cout << "[2] Ð¤ÐµÐ²Ñ€Ð°Ð»ÑŒ" << endl;
+		cout << "[3] ÐœÐ°Ñ€Ñ‚" << endl;
+		cout << "[4] ÐÐ¿Ñ€ÐµÐ»ÑŒ" << endl;
+		cout << "[5] ÐœÐ°Ð¹" << endl;
+		cout << "[6] Ð˜ÑŽÐ½ÑŒ" << endl;
+		cout << "[7] Ð˜ÑŽÐ»ÑŒ" << endl;
+		cout << "[8] ÐÐ²Ð³ÑƒÑÑ‚" << endl;
+		cout << "[9] Ð¡ÐµÐ½Ñ‚ÑÐ±Ñ€ÑŒ" << endl;
+		cout << "[10] ÐžÐºÑ‚ÑÐ±Ñ€ÑŒ" << endl;
+		cout << "[12] ÐÐ¾ÑÐ±Ñ€ÑŒ" << endl;
+		cout << "[12] Ð”ÐµÐºÐ°Ð±Ñ€ÑŒ" << endl << endl;
 
-	cout << "[0] Âûõîä" << endl << endl << endl;
-	do {
-		cout << "Âûáåðèòå íîìåð ìåñÿöà: ";  cin >> a;
+		cout << "[0] Ð’Ñ‹Ñ…Ð¾Ð´" << endl << endl << endl;
+		do{
+			cout << "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð¼ÐµÑÑÑ†Ð°: ";  cin >> a;
 
 		switch (a) {
 		case 1:
-			cout << "Âûáðàí ßíâàðü!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¯Ð½Ð²Ð°Ñ€ÑŒ!" << endl << endl << endl;
 			break;
 		case 2:
-			cout << "Âûáðàí Ôåâðàëü!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¤ÐµÐ²Ñ€Ð°Ð»ÑŒ!" << endl << endl << endl;
 			break;
 		case 3:
-			cout << "Âûáðàí Ìàðò!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ ÐœÐ°Ñ€Ñ‚!" << endl << endl << endl;
 			break;
 		case 4:
-			cout << "Âûáðàí Àïðåëü!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ ÐÐ¿Ñ€ÐµÐ»ÑŒ!" << endl << endl << endl;
 			break;
 		case 5:
-			cout << "Âûáðàí Ìàé!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ ÐœÐ°Ð¹!" << endl << endl << endl;
 			break;
 		case 6:
-			cout << "Âûáðàí Èþíü!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð˜ÑŽÐ½ÑŒ!" << endl << endl << endl;
 			break;
 		case 7:
-			cout << "Âûáðàí Èþëü!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð˜ÑŽÐ»ÑŒ!" << endl << endl << endl;
 			break;
 		case 8:
-			cout << "Âûáðàí Ñåíòÿáðü!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¡ÐµÐ½Ñ‚ÑÐ±Ñ€ÑŒ!" << endl << endl << endl;
 			break;
 		case 9:
-			cout << "Âûáðàí Ñåíòÿáðü!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð¡ÐµÐ½Ñ‚ÑÐ±Ñ€ÑŒ!" << endl << endl << endl;
 			break;
 		case 10:
-			cout << "Âûáðàí Îêòÿáðü!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ ÐžÐºÑ‚ÑÐ±Ñ€ÑŒ!" << endl << endl << endl;
 			break;
 		case 11:
-			cout << "Âûáðàí Íîÿáðü!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ ÐÐ¾ÑÐ±Ñ€ÑŒ!" << endl << endl << endl;
 			break;
 		case 12:
-			cout << "Âûáðàí Äåêàáðü!" << endl << endl << endl;
+			cout << "Ð’Ñ‹Ð±Ñ€Ð°Ð½ Ð”ÐµÐºÐ°Ð±Ñ€ÑŒ!" << endl << endl << endl;
 			break;
 		default:
-			cout << "Òàêîãî ìåñÿöà íåò!" << endl << endl << endl;
+			cout << "Ð¢Ð°ÐºÐ¾Ð³Ð¾ Ð¼ÐµÑÑÑ†Ð° Ð½ÐµÑ‚!" << endl << endl << endl;
 			break;
 		}
 	} while (a != 0);
