@@ -8,14 +8,14 @@ int main()
 	int w;
 
 	do {
-		cout << "[+] Ïåðåâîä÷èê [+]" << endl << endl;
+		cout << "[+] ÐŸÐµÑ€ÐµÐ²Ð¾Ð´Ñ‡Ð¸Ðº [+]" << endl << endl;
 
-		cout << "[1] Ðóññêèå ñëîâà" << endl;
-		cout << "[2] Àíãëèéñêèå ñëîâà" << endl << endl;
+		cout << "[1] Ð ÑƒÑÑÐºÐ¸Ðµ ÑÐ»Ð¾Ð²Ð°" << endl;
+		cout << "[2] ÐÐ½Ð³Ð»Ð¸Ð¹ÑÐºÐ¸Ðµ ÑÐ»Ð¾Ð²Ð°" << endl << endl;
 
-		cout << "[3] Âûéòè " << endl << endl;
+		cout << "[3] Ð’Ñ‹Ð¹Ñ‚Ð¸ " << endl << endl;
 
-		cout << "[] Âûáåðèòå ÿçûê: "; cin >> l;
+		cout << "[] Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ ÑÐ·Ñ‹Ðº: "; cin >> l;
 		if (l != 3)
 		{
 			switch (l)
@@ -23,76 +23,76 @@ int main()
 			case 1:
 				system("cls");
 				do {
-					cout << "[1] Êâàðòèðà " << endl;
-					cout << "[2] Ìóæ÷èíà " << endl;
-					cout << "[3] Æåíùèíà " << endl;
-					cout << "[4] Êàëåíäàðü " << endl;
-					cout << "[5] Ìàëü÷èê " << endl;
-					cout << "[6] Äåâî÷êà " << endl;
-					cout << "[7] Áðàò " << endl;
-					cout << "[8] Ñåñòðà " << endl;
-					cout << "[9] Ñòîë " << endl;
-					cout << "[10] Òåëåôîí " << endl;
-					cout << "[11] Äîðîãà " << endl;
-					cout << "[12] Äåòñêèé ñàä " << endl;
-					cout << "[13] Ñïîðòèâíûé çàë " << endl;
-					cout << "[14] Ñòàðûé " << endl;
-					cout << "[15] Ìîëîäîé " << endl << endl;
+					cout << "[1] ÐšÐ²Ð°Ñ€Ñ‚Ð¸Ñ€Ð° " << endl;
+					cout << "[2] ÐœÑƒÐ¶Ñ‡Ð¸Ð½Ð° " << endl;
+					cout << "[3] Ð–ÐµÐ½Ñ‰Ð¸Ð½Ð° " << endl;
+					cout << "[4] ÐšÐ°Ð»ÐµÐ½Ð´Ð°Ñ€ÑŒ " << endl;
+					cout << "[5] ÐœÐ°Ð»ÑŒÑ‡Ð¸Ðº " << endl;
+					cout << "[6] Ð”ÐµÐ²Ð¾Ñ‡ÐºÐ° " << endl;
+					cout << "[7] Ð‘Ñ€Ð°Ñ‚ " << endl;
+					cout << "[8] Ð¡ÐµÑÑ‚Ñ€Ð° " << endl;
+					cout << "[9] Ð¡Ñ‚Ð¾Ð» " << endl;
+					cout << "[10] Ð¢ÐµÐ»ÐµÑ„Ð¾Ð½ " << endl;
+					cout << "[11] Ð”Ð¾Ñ€Ð¾Ð³Ð° " << endl;
+					cout << "[12] Ð”ÐµÑ‚ÑÐºÐ¸Ð¹ ÑÐ°Ð´ " << endl;
+					cout << "[13] Ð¡Ð¿Ð¾Ñ€Ñ‚Ð¸Ð²Ð½Ñ‹Ð¹ Ð·Ð°Ð» " << endl;
+					cout << "[14] Ð¡Ñ‚Ð°Ñ€Ñ‹Ð¹ " << endl;
+					cout << "[15] ÐœÐ¾Ð»Ð¾Ð´Ð¾Ð¹ " << endl << endl;
 
-					cout << "[0] Âûõîä " << endl << endl;
+					cout << "[0] Ð’Ñ‹Ñ…Ð¾Ð´ " << endl << endl;
 
-					cout << "[] Ââåäèòå íîìåð ñëîâà: "; cin >> w;
+					cout << "[] Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ ÑÐ»Ð¾Ð²Ð°: "; cin >> w;
 					system("cls");
 					switch (w)
 					{
 					case 1:
-						cout << "[] Êâàðòèðà - Flat [] " << endl << endl;
+						cout << "[] ÐšÐ²Ð°Ñ€Ñ‚Ð¸Ñ€Ð° - Flat [] " << endl << endl;
 						break;
 					case 2:
-						cout << "[] Ìóæ÷èíà - Man [] " << endl << endl;
+						cout << "[] ÐœÑƒÐ¶Ñ‡Ð¸Ð½Ð° - Man [] " << endl << endl;
 						break;
 					case 3:
-						cout << "[] Æåíùèíà - Woman [] " << endl << endl;
+						cout << "[] Ð–ÐµÐ½Ñ‰Ð¸Ð½Ð° - Woman [] " << endl << endl;
 						break;
 					case 4:
-						cout << "[] Êàëåíäàðü - Calendar [] " << endl << endl;
+						cout << "[] ÐšÐ°Ð»ÐµÐ½Ð´Ð°Ñ€ÑŒ - Calendar [] " << endl << endl;
 						break;
 					case 5:
-						cout << "[] Ìàëü÷èê - Boy [] " << endl << endl;
+						cout << "[] ÐœÐ°Ð»ÑŒÑ‡Ð¸Ðº - Boy [] " << endl << endl;
 						break;
 					case 6:
-						cout << "[] Äåâî÷êà - Girl [] " << endl << endl;
+						cout << "[] Ð”ÐµÐ²Ð¾Ñ‡ÐºÐ° - Girl [] " << endl << endl;
 						break;
 					case 7:
-						cout << "[] Áðàò - Brother [] " << endl << endl;
+						cout << "[] Ð‘Ñ€Ð°Ñ‚ - Brother [] " << endl << endl;
 						break;
 					case 8:
-						cout << "[] Ñåñòðà - Sister [] " << endl << endl;
+						cout << "[] Ð¡ÐµÑÑ‚Ñ€Ð° - Sister [] " << endl << endl;
 						break;
 					case 9:
-						cout << "[] Ñòîë - Table [] " << endl << endl;
+						cout << "[] Ð¡Ñ‚Ð¾Ð» - Table [] " << endl << endl;
 						break;
 					case 10:
-						cout << "[] Òåëåôîí - Phone [] " << endl << endl;
+						cout << "[] Ð¢ÐµÐ»ÐµÑ„Ð¾Ð½ - Phone [] " << endl << endl;
 						break;
 					case 11:
-						cout << "[] Äîðîãà - Road [] " << endl << endl;
+						cout << "[] Ð”Ð¾Ñ€Ð¾Ð³Ð° - Road [] " << endl << endl;
 						break;
 					case 12:
-						cout << "[] Äåòñêèé ñàä - Kindergarten[] " << endl << endl;
+						cout << "[] Ð”ÐµÑ‚ÑÐºÐ¸Ð¹ ÑÐ°Ð´ - Kindergarten[] " << endl << endl;
 						break;
 					case 13:
-						cout << "[] Ñïîðòèâíûé çàë - Gym [] " << endl << endl;
+						cout << "[] Ð¡Ð¿Ð¾Ñ€Ñ‚Ð¸Ð²Ð½Ñ‹Ð¹ Ð·Ð°Ð» - Gym [] " << endl << endl;
 						break;
 					case 14:
-						cout << "[] Ñòàðûé - Old [] " << endl << endl;
+						cout << "[] Ð¡Ñ‚Ð°Ñ€Ñ‹Ð¹ - Old [] " << endl << endl;
 						break;
 					case 15:
-						cout << "[] Ìîëîäîé - Young [] " << endl << endl;
+						cout << "[] ÐœÐ¾Ð»Ð¾Ð´Ð¾Ð¹ - Young [] " << endl << endl;
 						break;
 					default:
 						system("cls");
-						cout << "[] Âû ââåëè íå ïðàâèëüíûé ñèìâîë" << endl << endl;
+						cout << "[] Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸ Ð½Ðµ Ð¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ¸Ð¼Ð²Ð¾Ð»" << endl << endl;
 						break;
 					}
 				} while (w != 0);
@@ -115,69 +115,69 @@ int main()
 					cout << "[13] Gym " << endl;
 					cout << "[14] Old " << endl;
 					cout << "[15] Young " << endl << endl;
+					
+					cout << "[0] Ð’Ñ‹Ñ…Ð¾Ð´ " << endl << endl;
 
-					cout << "[0] Âûõîä " << endl << endl;
-
-					cout << "[] Ââåäèòå íîìåð ñëîâà: "; cin >> w;
+					cout << "[] Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ ÑÐ»Ð¾Ð²Ð°: "; cin >> w;
 					system("cls");
 					switch (w)
 					{
 					case 1:
-						cout << "[] Flat - Êâàðòèðà [] " << endl << endl;
+						cout << "[] Flat - ÐšÐ²Ð°Ñ€Ñ‚Ð¸Ñ€Ð° [] " << endl << endl;
 						break;
 					case 2:
-						cout << "[] Man - Ìóæ÷èíà [] " << endl << endl;
+						cout << "[] Man - ÐœÑƒÐ¶Ñ‡Ð¸Ð½Ð° [] " << endl << endl;
 						break;
 					case 3:
-						cout << "[] Woman - Æåíùèíà [] " << endl << endl;
+						cout << "[] Woman - Ð–ÐµÐ½Ñ‰Ð¸Ð½Ð° [] " << endl << endl;
 						break;
 					case 4:
-						cout << "[] Calendar - Êàëåíäàðü [] " << endl << endl;
+						cout << "[] Calendar - ÐšÐ°Ð»ÐµÐ½Ð´Ð°Ñ€ÑŒ [] " << endl << endl;
 						break;
 					case 5:
-						cout << "[] Boy - Ìàëü÷èê [] " << endl << endl;
+						cout << "[] Boy - ÐœÐ°Ð»ÑŒÑ‡Ð¸Ðº [] " << endl << endl;
 						break;
 					case 6:
-						cout << "[] Girl - Äåâî÷êà [] " << endl << endl;
+						cout << "[] Girl - Ð”ÐµÐ²Ð¾Ñ‡ÐºÐ° [] " << endl << endl;
 						break;
 					case 7:
-						cout << "[] Brother - Áðàò [] " << endl << endl;
+						cout << "[] Brother - Ð‘Ñ€Ð°Ñ‚ [] " << endl << endl;
 						break;
 					case 8:
-						cout << "[] Sister - Ñåñòðà [] " << endl << endl;
+						cout << "[] Sister - Ð¡ÐµÑÑ‚Ñ€Ð° [] " << endl << endl;
 						break;
 					case 9:
-						cout << "[] Table - Ñòîë [] " << endl << endl;
+						cout << "[] Table - Ð¡Ñ‚Ð¾Ð» [] " << endl << endl;
 						break;
 					case 10:
-						cout << "[] Phone - Òåëåôîí [] " << endl << endl;
+						cout << "[] Phone - Ð¢ÐµÐ»ÐµÑ„Ð¾Ð½ [] " << endl << endl;
 						break;
 					case 11:
-						cout << "[] Road - Äîðîãà [] " << endl << endl;
+						cout << "[] Road - Ð”Ð¾Ñ€Ð¾Ð³Ð° [] " << endl << endl;
 						break;
 					case 12:
-						cout << "[] Kindergarten - Äåòñêèé ñàä [] " << endl << endl;
+						cout << "[] Kindergarten - Ð”ÐµÑ‚ÑÐºÐ¸Ð¹ ÑÐ°Ð´ [] " << endl << endl;
 						break;
 					case 13:
-						cout << "[] Gym - Ñïîðòèâíûé çàë [] " << endl << endl;
+						cout << "[] Gym - Ð¡Ð¿Ð¾Ñ€Ñ‚Ð¸Ð²Ð½Ñ‹Ð¹ Ð·Ð°Ð» [] " << endl << endl;
 						break;
 					case 14:
-						cout << "[] Old - Ñòàðûé [] " << endl << endl;
+						cout << "[] Old - Ð¡Ñ‚Ð°Ñ€Ñ‹Ð¹ [] " << endl << endl;
 						break;
 					case 15:
-						cout << "[] Young - Ìîëîäîé [] " << endl << endl;
+						cout << "[] Young - ÐœÐ¾Ð»Ð¾Ð´Ð¾Ð¹ [] " << endl << endl;
 						break;
 					default:
 						system("cls");
-						cout << "[] Âû ââåëè íå ïðàâèëüíûé ñèìâîë" << endl << endl;
+						cout << "[] Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸ Ð½Ðµ Ð¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ¸Ð¼Ð²Ð¾Ð»" << endl << endl;
 						break;
 					}
-				} while (w != 0);
+				} while (w != 0); 
 				break;
 
 			} break;
 		}
-		else cout << "Âû ââåëè íå âåðíûé ñèìâîë" << endl << endl;
+		else cout << "Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸ Ð½Ðµ Ð²ÐµÑ€Ð½Ñ‹Ð¹ ÑÐ¸Ð¼Ð²Ð¾Ð»" << endl << endl;
 	} while (l != 3);
 	return 0;
 }
