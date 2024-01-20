@@ -8,15 +8,15 @@ int main()
 	int cyrcle, i;
 
 	cout << "----------" << endl;
-	cout << " Öèêë For" << endl;
+	cout << " Ð¦Ð¸ÐºÐ» For" << endl;
 	cout << "----------" << endl << endl;
 
-	cout << "Ââåäèòå êîëè÷åñòâî êðóãîâ: "; cin >> cyrcle;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÐºÑ€ÑƒÐ³Ð¾Ð²: "; cin >> cyrcle;
 	cout << endl;
 
 	for (int i = 0; cyrcle != i; i++) {
 		if (i <= cyrcle) {
-			cout << "Ýòî " << i + 1 << " êðóã" << endl;
+			cout << "Ð­Ñ‚Ð¾ " << i + 1 << " ÐºÑ€ÑƒÐ³" << endl;
 		}
 		else {
 			break;
