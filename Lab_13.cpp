@@ -13,22 +13,22 @@ int main() {
     char texture;
 
     cout << "-----------------------\n";
-    cout << " Ãåîìåòðè÷åñêèå ôèãóðû\n";
+    cout << " Ð“ÐµÐ¾Ð¼ÐµÑ‚Ñ€Ð¸Ñ‡ÐµÑÐºÐ¸Ðµ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹\n";
     cout << "-----------------------\n\n";
 
-    cout << "[1] Ëèíèÿ\n";
-    cout << "[2] Êâàäðàò\n\n";
-    cout << " Âûáèðèòå ôèãóðó: "; cin >> choice;
+    cout << "[1] Ð›Ð¸Ð½Ð¸Ñ\n";
+    cout << "[2] ÐšÐ²Ð°Ð´Ñ€Ð°Ñ‚\n\n";
+    cout << " Ð’Ñ‹Ð±Ð¸Ñ€Ð¸Ñ‚Ðµ Ñ„Ð¸Ð³ÑƒÑ€Ñƒ: "; cin >> choice;
 
     if (choice == 1) {
-        cout << " Ðàçìåð: "; cin >> size;
+        cout << " Ð Ð°Ð·Ð¼ÐµÑ€: "; cin >> size;
 
-        cout << " Òåêñòóðà: "; cin >> texture;
+        cout << " Ð¢ÐµÐºÑÑ‚ÑƒÑ€Ð°: "; cin >> texture;
 
-        cout << "\n 0 - ãîðèçîíòàëüíàÿ\n 1 - âåðòèêàëüíàÿ\n";
-        cout << " Òèï ëèíèè: "; cin >> type;
+        cout << "\n 0 - Ð³Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»ÑŒÐ½Ð°Ñ\n 1 - Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»ÑŒÐ½Ð°Ñ\n";
+        cout << " Ð¢Ð¸Ð¿ Ð»Ð¸Ð½Ð¸Ð¸: "; cin >> type;
 
-        cout << "\nÂûâîä:\n";
+        cout << "\nÐ’Ñ‹Ð²Ð¾Ð´:\n";
         for (int i = 0; i < size; i++) {
             if (type == 0) {
                 cout << texture;
@@ -37,21 +37,21 @@ int main() {
                 cout << texture << endl;
             }
             else {
-                cout << "Îøèáêà";
+                cout << "ÐžÑˆÐ¸Ð±ÐºÐ°";
                 break;
             }
         }
     }
 
     else if (choice == 2) {
-        cout << " Ðàçìåð (x*x): "; cin >> size;
+        cout << " Ð Ð°Ð·Ð¼ÐµÑ€ (x*x): "; cin >> size;
 
-        cout << " Òåêñòóðà: "; cin >> texture;
+        cout << " Ð¢ÐµÐºÑÑ‚ÑƒÑ€Ð°: "; cin >> texture;
 
-        cout << "\n 0 - çàïîëíåííûé\n 1 - ïóñòîé\n";
-        cout << " Òèï êâàäðàòà: "; cin >> type;
+        cout << "\n 0 - Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð½Ñ‹Ð¹\n 1 - Ð¿ÑƒÑÑ‚Ð¾Ð¹\n";
+        cout << " Ð¢Ð¸Ð¿ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ð°: "; cin >> type;
 
-        cout << "\nÂûâîä:\n";
+        cout << "\nÐ’Ñ‹Ð²Ð¾Ð´:\n";
             if (type == 0) {
                 drawFilledSquare(size, texture); {
                     for (int i = 0; i < size; ++i) {
@@ -81,13 +81,13 @@ int main() {
             }
 
             else {
-                cout << "Îøèáêà";
+                cout << "ÐžÑˆÐ¸Ð±ÐºÐ°";
                 return 0;
             }
     }
 
     else {
-        cout << "Îøèáêà";
+        cout << "ÐžÑˆÐ¸Ð±ÐºÐ°";
         return 0;
     }
 
